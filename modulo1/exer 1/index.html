@@ -9,22 +9,17 @@
 </head>
 
 <body>
-    <script>
-        function formatarendereco(endereco){
-            return "o usuario mora em "+endereco.cidade+" / "
-            +endereco.uf+" no bairro "+endereco.bairro+" na rua "
-            +endereco.rua+" com o n° "+endereco.numero+"."
-            }
-        var address = {
-            rua: "Rua dos pinheiros",
-            numero: 1293,
-            bairro: "Centro",
-            cidade: "São Paulo",
-            uf: "SP"
-        };
+    <div id="app">
+        <ul>
+            <li>sla1<a href="#">excluir</a></li>
+            <li>sla2<a href="#">excluir</a></li>
+            <li>sla3<a href="#">excluir</a></li>
+        </ul>
+        <input type="text" placeholder="fala tu" name="" id="">
+        <button>add</button>
+    </div>
 
-        alert(formatarendereco(address))
-    </script>
+    <script src="todo.js"></script>
 
 </body>
 
